@@ -22,9 +22,7 @@ export function cities() {
         const response = await request.json()
         const options = document.createElement('optgroup')
         response.forEach(element => {
-
             options.innerHTML += `<option class="statesOptions">${element.sigla}</option>`
-
         });
         uf.append(options)
     })

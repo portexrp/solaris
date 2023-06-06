@@ -6,7 +6,6 @@ import { scroll } from "./controllers/scroll.js"
 
 scroll()
 callback() 
-
 cities()
 
 const formSubmit = new FormSubmit({
