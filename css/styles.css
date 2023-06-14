@@ -239,8 +239,24 @@ a {
   color: #ffc800;
   text-decoration: underline;
 }
-a:hover {
-  color: #cca000;
+a::after {
+  color: #ffc800;
+  text-decoration: underline;
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffc800;
+  transform-origin: bottom right;
+  transition: transform 0.5s ease-out;
+}
+
+a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -11375,11 +11391,22 @@ p {
 }
 
 .logo  {
-  max-width: 250px;
-  margin-top: -45px;
-  margin-bottom:-110px;
+  max-width: 300px;
+  margin-top: 0px;
+  margin-bottom:0px;
   margin-left: 5px;
   float: left;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 35px;
+}
+.logo img {
+  width: 50px;
+  margin-top: -5px;
+}
+.logo a:hover {
+  color: #ffc800;
+  text-decoration: underline;
 }
 
 @media (min-width: 992px) {
@@ -11845,12 +11872,14 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 
 .modalOrcamento {
-  background-image: url('../assets/img/logos/modal.jpg');
-  background-position: center center; 
+  background-image: url('../assets/img/logo.png');    
+  background-position: center top; 
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: 8%;
   background-color: #464646;
+  background-position-x: 50%;
+  background-position-y: 40px;
   width: auto;
   
 }
@@ -11927,14 +11956,20 @@ section#contact form#contactForm :-ms-input-placeholder {
   
   
   .modalOrcamento {
-    background-image: url('../assets/img/logos/modal.jpg');
+    
+    background-image: url('');    
     background-position: center center; 
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-color: #464646;
+    background-position-y: 20%;
     width: auto;
     
+  }
+
+  .portfolio-modal .modal-content h2, .portfolio-modal .modal-content .h2 {
+    font-size: 40px;
   }
 
  

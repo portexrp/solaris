@@ -42,75 +42,20 @@
     </nav>
 
     <!-- Page Content  -->
-    <div id="content" class="p-4 p-md-5 pt-5">
+    <div id="content" class="p-4 p-md-5 pt-5 content">
       <h2 class="mb-4">Novos Orçamentos</h2>
-      <div id="orcamentoLink" class="">
-        <div class="portfolio-item">
-          <a class="portfolio-link" data-bs-toggle="modal" href="#orcamentoModal">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content"></div>
-            </div>
-            <div class="portfolio-caption">
-              <div class="portfolio-caption-heading">Orçamento n° 123</div>
-              <div class="portfolio-caption-subheading text-muted">Cliente: Reinaldo</div>
-            </div>
-          </a>
-        </div>
+      <div id="orcamentoLink" class="orcamentoLink ">
+
       </div>
     </div>
   </div>
 
+  <div id="modal">
 
-  <div class="portfolio-modal modal fade" id="orcamentoModal" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content modalOrcamento">
-        <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" />
-        </div>
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-11">
-              <div class="modal-body" id="modal">
-                <form action="http://localhost:3000/form" method="post" id="orcamentoForm" data-form>
-                  <img src="" alt="">
-                  <!-- Project details-->
-                  <h2 class="text-uppercase modaTitle">Orçamento</h2>
-                  <p class="item-intro text-muted">Dados básicos</p>
-
-                  <input class="inputModal" type="text" id="nameOrcamento" placeholder="Nome">
-                  <input class="inputModal" type="email" id="emailOrcamento" placeholder="Email">
-                  <input class="inputModal" type="tel" id="phoneOrcamento" placeholder="Celular/Telefone">
-                  <input class="inputModal" type="text" id="estado">
-                  <input class="inputModal" type="text" id="cities">
-
-                  <input class="inputModal" type="text" id="adress" placeholder="Endereço {Rua e Número}">
-                  <hr>
-                  <p class="item-intro text-muted">Dados instalação</p>
-
-                  <input class="inputModal" id="instacao">
-
-                  <input class="inputModal" id="distribuidora_energia" required="" aria-required="true"
-                    aria-invalid="false">
-
-
-                  <input class="inputModal" type="text" placeholder="Consumo médio mensal R$" id="consumo" required>
-
-                  <input class="inputModal" id="telhado">
-
-                  <input class="inputModal" id="financiamento">
-
-                  <button class="btn btn-primary btn-xl text-uppercase" id="submit-button" type="submit" data-button>
-                    Salvar
-                  </button>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
+  
 
-
+  <script type="module" src="js/controllers/dashboard/getData.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="js/jquery.min.js"></script>
   <script src="js/popper.js"></script>

@@ -39,7 +39,7 @@ export class Login {
       
       try {
         this.onSubmission(event);
-        const response = await fetch("http://localhost:3000/session", {
+        const response = await fetch("http://150.230.84.5:3000/session", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -53,7 +53,7 @@ export class Login {
             const data = await response.json()
             const {name, token} = data            
             localStorage.setItem('nome', JSON.stringify(name))  
-            localStorage.setItem('token', JSON.stringify(token))             
+            localStorage.setItem('token', JSON.stringify(token))                
             window.location.href = '\dashboard.html'        
         }else{
             return window.location.href = '\index.html' 

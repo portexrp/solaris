@@ -8417,3 +8417,183 @@ a[data-toggle="collapse"] {
 }
 }
 
+.orcamentoLink {  
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.orcamento-caption {  
+  
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.1)  !important;
+  
+}
+
+
+.statesOptions {
+  width: 300px;
+  height: 40px;
+  font-size: medium;
+  margin: 1%;
+  opacity: 0.5;
+  border-radius: 5px;
+  box-shadow: 1px 2px 2px gray;
+  border: none;
+  
+}
+.citiesOptions {
+  width: 300px;
+  height: 40px;
+  font-size: medium;
+  margin: 1%;
+  opacity: 0.5;
+  border-radius: 5px;
+  box-shadow: 1px 2px 2px gray;
+  border: none;
+  
+  
+}
+
+.instalaçaoOptions {
+  width: 300px;
+  height: 40px;
+  font-size: medium;
+  margin: 1%;
+  opacity: 0.5;
+  border-radius: 5px;
+  box-shadow: 1px 2px 2px gray;
+  border: none;
+  
+  
+}
+
+.modaTitle{
+  color: #ffc801!important;
+}
+
+
+.inputModal {
+  width: 390px;
+  height: 40px;
+  font-size: medium;
+  margin: 1%;
+  border-radius: 5px;
+  box-shadow: 1px 2px 2px gray;
+  border-width: 1px;
+  opacity: 0.6;
+  border: none;
+  
+}
+
+
+.modalOrcamento {  
+  background-position: center center; 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+  width: auto;
+  
+}
+.statesOptions,
+.citiesOptions ,
+.instalaçaoOptions,
+.inputModal {
+  color: black;
+}
+
+.success{
+  color: greenyellow;
+}
+
+.error {
+  color: tomato;
+}
+
+.success,
+.error{
+  text-align: center;
+}
+
+.modalOrcamento button {
+  background-color: #ffc800 !important;
+  border-color: #ffc800 !important;
+  width: 99%;
+  margin-left: 5px;
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.1)  !important;
+  align-content: center;
+}
+
+
+@media (max-width: 360px) {
+
+
+ .orcamentoLink{
+  flex-direction: column;
+ }
+
+ .portfolio-item{
+  margin-bottom: 20px;
+ }
+ .col-4{  
+  flex: 0 0 100% ;
+  max-width: 100% ;
+ }
+  .statesOptions {
+    width: 275px;
+    height: 40px;
+    font-size: medium;
+    opacity: 0.5;
+    border-radius: 5px;
+    box-shadow: 1px 2px 2px gray;
+    border: none;
+    
+  }
+  .citiesOptions {
+    width: 275px;
+    height: 40px;
+    font-size: medium;
+    margin: 1%;
+    opacity: 0.5;
+    border-radius: 5px;
+    box-shadow: 1px 2px 2px gray;
+    border: none;
+    
+    
+  }
+  
+  .instalaçaoOptions {
+    width: 275px;
+    height: 40px;
+    font-size: medium;
+    margin: 1%;
+    opacity: 0.5;
+    border-radius: 5px;
+    box-shadow: 1px 2px 2px gray;
+    border: none;
+    
+    
+  }
+  
+  
+  .inputModal {
+    width: 275px;
+    height: 40px;
+    font-size: medium;
+    margin: 1%;
+    border-radius: 5px;
+    box-shadow: 1px 2px 2px gray;
+    border-width: 1px;
+    opacity: 0.6;
+    border: none;
+    
+  }
+  
+  
+  .modalOrcamento {
+    background-size: cover;
+    background-color: #464646;
+    width: auto;
+    
+  }
+} 
