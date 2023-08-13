@@ -129,10 +129,6 @@ link e modal para acessar os orçamentos
 
 const structure = () => {
     const dados = getData()
-   
-
-
-
 }
 
 structure()
