@@ -58,8 +58,7 @@ export class Login {
         localStorage.setItem('nome', JSON.stringify(name))
         localStorage.setItem('token', JSON.stringify(token))
         window.location.href = '\dashboard.html'
-      } else {
-        this.displayError();
+      } else {        
         const exibeError = document.getElementById('exibeError')
         exibeError.innerHTML = '<span style="color: red;">Usuário ou senha inválidos</span>'
         setTimeout(() => {
