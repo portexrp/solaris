@@ -4,7 +4,8 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="Empresa focada no ramo de venda, instalação e manutenção de sistema de energia solar." />
+    <meta name="description"
+        content="Empresa focada no ramo de venda, instalação e manutenção de sistema de energia solar." />
     <meta name="author" content="Reinaldo Porto" />
     <title>Projeto Solaris - Sistemas fotovoltaicos</title>
     <!-- Favicon-->
@@ -14,7 +15,13 @@
     <!-- Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+    <script src="https://www.google.com/recaptcha/api.js?render=6LfraU4oAAAAAAJui95Bx-szY4UbnoccBGdfEXej"></script>
+    <script>
+        function onSubmit(token) {
+            document.getElementById("demo-form").submit();
+        }
+    </script>
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
 </head>
@@ -22,7 +29,7 @@
 <!-- Navigation-->
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
-        <a class="logo" href="#page-top"><img src="assets/img/logo.png" />Projeto Solaris</a>
+        <a class="logo" href="#page-top"><img src="assets/img/logo.png" /></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
             aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             Menu
@@ -33,8 +40,8 @@
             <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                 <li class="nav-item"><a class="nav-link" href="#services">Energia Solar</a></li>
                 <li class="nav-item"><a class="nav-link" href="#portfolio">Beneficios</a></li>
-                <li class="nav-item"><a class="nav-link" href="#about">Taxação</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contact">Contato</a></li>                
+                <li class="nav-item"><a class="nav-link" href="#about">Orçamento</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contato</a></li>
             </ul>
 
         </div>
@@ -61,7 +68,7 @@
             <div class="col-md-4">
                 <span class="fa-stack fa-4x">
                     <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                    <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                    <i class="fas fa-usd fa-stack-1x fa-inverse"></i>
                 </span>
                 <h4 class="my-3">Economia</h4>
                 <p class="text-muted">O sistema de energia solar possibilita a você uma economia de até 95% no valor
@@ -83,7 +90,7 @@
                 </span>
                 <h4 class="my-3">Vida longa útil</h4>
                 <p class="text-muted">A vida útil das placas fotovoltaicas é de, no mínimo, 25 anos e a mesma se
-                    paga em até 7 anos.</p>
+                    paga em 4-5 anos.</p>
             </div>
         </div>
     </div>
@@ -107,7 +114,9 @@
                     </a>
                     <div class="portfolio-caption">
                         <div class="portfolio-caption-heading">Mudanças Climáticas</div>
-                        <div class="portfolio-caption-subheading text-muted">Saiba mais</div>
+                        <div class="portfolio-caption-subheading text-muted"><a class="portfolio-link"
+                                style="text-decoration: none; color: black;" data-bs-toggle="modal"
+                                href="#portfolioModal1">Saiba mais</a></div>
                     </div>
                 </div>
             </div>
@@ -122,7 +131,9 @@
                     </a>
                     <div class="portfolio-caption">
                         <div class="portfolio-caption-heading">Impacto ambiental</div>
-                        <div class="portfolio-caption-subheading text-muted">Saiba mais</div>
+                        <div class="portfolio-caption-subheading text-muted"><a class="portfolio-link"
+                                style="text-decoration: none; color: black;" data-bs-toggle="modal"
+                                href="#portfolioModal4">Saiba mais</a></div>
                     </div>
                 </div>
             </div>
@@ -138,7 +149,9 @@
                     </a>
                     <div class="portfolio-caption">
                         <div class="portfolio-caption-heading">Energia limpa</div>
-                        <div class="portfolio-caption-subheading text-muted">Saiba mais</div>
+                        <div class="portfolio-caption-subheading text-muted"><a class="portfolio-link"
+                                style="text-decoration: none; color: black;" data-bs-toggle="modal"
+                                href="#portfolioModal5">Saiba mais</a></div>
                     </div>
                 </div>
 
@@ -156,7 +169,9 @@
                     </a>
                     <div class="portfolio-caption">
                         <div class="portfolio-caption-heading">Valor do imóvel</div>
-                        <div class="portfolio-caption-subheading text-muted">Saiba mais</div>
+                        <div class="portfolio-caption-subheading text-muted"><a class="portfolio-link"
+                                style="text-decoration: none; color: black;" data-bs-toggle="modal"
+                                href="#portfolioModal3">Saiba mais</a></div>
                     </div>
                 </div>
             </div>
@@ -173,7 +188,9 @@
                     </a>
                     <div class="portfolio-caption">
                         <div class="portfolio-caption-heading">Redução da conta</div>
-                        <div class="portfolio-caption-subheading text-muted">Saiba mais</div>
+                        <div class="portfolio-caption-subheading text-muted"><a class="portfolio-link"
+                                style="text-decoration: none; color: black;" data-bs-toggle="modal"
+                                href="#portfolioModal2">Saiba mais</a></div>
                     </div>
                 </div>
 
@@ -193,7 +210,9 @@
                     </a>
                     <div class="portfolio-caption">
                         <div class="portfolio-caption-heading">Durabilidade</div>
-                        <div class="portfolio-caption-subheading text-muted">Saiba mais</div>
+                        <div class="portfolio-caption-subheading text-muted"><a class="portfolio-link"
+                                style="text-decoration: none; color: black;" data-bs-toggle="modal"
+                                href="#portfolioModal6">Saiba mais</a></div>
                     </div>
                 </div>
             </div>
@@ -202,24 +221,36 @@
 </section>
 <!-- About-->
 <section class="page-section" id="about">
+
     <div class="container">
         <div class="text-center">
-            <h2 class="section-heading text-uppercase">Taxação na geração de energia</h2>
-            <h3 class="section-subheading text-muted">LEI Nº 14.300, DE 6 DE JANEIRO DE 2022</h3>
+            <h2 class="section-heading text-uppercase">Gere sua propria energia</h2>
+            <h3 class="section-subheading text-muted">Economize e transforme gasto com conta de luz em lazer,
+                investimento ou poupança!</h3>
         </div>
         <ul class="timeline">
+
             <li>
                 <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg"
                         alt="..." /></div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
-                        <h4>2022</h4>
-                        <h4 class="subheading">Promulgação da Lei</h4>
+                        <h4>Como funciona?</h4>
+                        <h4 class="subheading">1º - Analise de Projeto</h4>
                     </div>
                     <div class="timeline-body">
-                        <p class="text-muted">Passa a valer o que previa a Lei nº 14.300 de 2022 (Marco Legal da
-                            Geração Própria), que define que os projetos protocolados a partir de 7 de janeiro de
-                            2023 passam a ser taxados gradualmente. </p>
+                        <p class="text-muted">Verificamos a necessidade de consumo mês, baseado no histórico dos últimos
+                            12 meses e assim gerando uma média de uso de energia. </p>
+                        <p style="margin-top: 10px;" class="text-muted">Checamos se há necessidade de correção em dois
+                            pontos vitais para executar
+                            o projeto.
+                        <p style="margin-top: 10px;">Telhado ou Àrea de externa: Validamos se há espaço suficiente para
+                            efetuar a
+                            instalação dos painéis</p>
+                        <p style="margin-top: 10px;">Adequação Elétrica: Estado da caixa elétrica, fiação, disjutores,
+                            qual padrão será usado que são
+                            (monofásico, bifásico e trifásico)</p>
+
                     </div>
                 </div>
             </li>
@@ -228,13 +259,17 @@
                         alt="..." /></div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
-                        <h4>Janeiro 2023</h4>
-                        <h4 class="subheading">Passa a vale a lei</h4>
+                        <h4>2º - Proposta Comercial</h4>
+                        <h4 class="subheading"></h4>
                     </div>
                     <div class="timeline-body">
-                        <p class="text-muted">A partir do dia 07/01/2023, todos os novo projetos que forem
-                            protocolados já seram taxados em 15% no valor referente a distribuição de energia e
-                            subindo gradativamente até chegar no total de 100% na cobrança da distribuição.</p>
+                        <p class="text-muted">Após a elaboração das necessidades do projeto, encaminharemos uma proposta
+                            contendo
+                            todas as informações, tais como: Material, mão de obra qualificada, serviços de engenharia,
+                            tempo de instalação e homologação do projeto.
+                        </p>
+                        <p style="margin-top: 10px;">Após assinatura de contrato e analise de financiamento(se houver),
+                            seguimos para parte técnica.</p>
                     </div>
                 </div>
             </li>
@@ -243,17 +278,16 @@
                         alt="..." /></div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
-                        <h4>Quanto irei pagar?</h4>
-                        <h4 class="subheading">Entendendo a taxação.</h4>
+                        <h4> 3º - Instalação e Homologação</h4>
+                        <h4 class="subheading"></h4>
                     </div>
                     <div class="timeline-body">
-                        <p class="text-muted">Para compreender melhor, temos separar a cobrança que temos na conta
-                            de Luz.<br>
-                            Iremos utilizar a distribuidora CPFL Paulista como exemplo:
-                            Geração = 50,13%, Transmissão = 5,36%, Distribuição = 29,42% e Encargos = 15,09% <br>
-                            A taxação da geração de energia solar, será inicialmente 15% apenas da distribuição ou
-                            seja, 15% dos 29,42% de distribuição e todo ano será reajustado 15% até que complete
-                            100% do total de 29,42% do total da conta.
+                        <p class="text-muted">A instalação de painéis solares é a base da transição para energia solar.
+                            Nossa equipe realiza uma avaliação cuidadosa do local e instala os painéis com precisão para
+                            otimizar a captação de energia solar. Além disso, cuidamos de todo o processo de homologação
+                            junto à distribuidora, assegurando que seu sistema solar esteja em conformidade com as
+                            normas locais. Conte conosco para tornar a energia solar uma realidade em sua residência ou
+                            empresa, economizando dinheiro e contribuindo para um futuro mais sustentável.
 
                         </p>
                     </div>
@@ -264,17 +298,41 @@
                         alt="..." /></div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
-                        <h4>Energia Solar</h4>
-                        <h4 class="subheading">Ainda compensa instalar?</h4>
+                        <h4>Tudo instalado e agora?</h4>
+                        <h4 class="subheading"></h4>
                     </div>
                     <div class="timeline-body">
-                        <p class="text-muted">Sabendo que a cobrança será feita apenas na distribuição, a instação
-                            de painel solar continua sendo muito vantajosa e atrativa para obter uma ótima economia
-                            na dispesa com energia. Pois em até 7/8 anos o próprio sistema se paga. Depois disso é
-                            só economia e praticamente zero manutenção por 25/30 anos.</p>
+                        <p style="margin-top: 10px;" class="text-muted">
+                            Com tudo pronto e seus painéis solares instalados com sucesso, você está prestes a colher os
+                            frutos da energia solar. Agora, é hora de começar a economizar significativamente em suas
+                            contas de energia, enquanto contribui para um planeta mais verde.
+                        </p>
+                        <p style="margin-top: 10px;">
+                            Imagine reduzir sua dependência da rede elétrica convencional e até mesmo gerar créditos de
+                            energia limpa quando seu sistema produz mais do que você consome. Com a energia solar, isso
+                            se torna uma realidade.
+                        </p>
+
+                        <p style="margin-top: 10px;">
+                            Se você ainda não deu o primeiro passo em direção a um futuro mais sustentável e econômico,
+                            não perca mais tempo. Solicite um orçamento conosco hoje mesmo e descubra como a energia
+                            solar pode transformar sua vida e seus negócios. Estamos aqui para ajudar você a fazer a
+                            transição para uma fonte de energia mais limpa e econômica.
+                        </p>
+                        <p style="margin-top: 10px;">
+                            Aproveite o poder do sol e comece a economizar agora.<strong><mark> Entre em contato conosco
+                                    para obter um
+                                    orçamento personalizado e embarque na jornada rumo a um futuro mais brilhante e
+                                    sustentável.</mark></strong>
+
+                        </p>
+
+
+
                     </div>
                 </div>
             </li>
+            -->
             <li class="timeline-inverted">
                 <a class="portfolio-link" data-bs-toggle="modal" href="#orcamentoModal">
                     <div class="timeline-image">
@@ -371,20 +429,14 @@
             <h2 class="section-heading text-uppercase">Contato</h2>
             <h3 class="section-subheading text-muted-contact">16 9xxxx-xxxx Ribeirão Preto/SP</h3>
         </div>
-        <!-- * * * * * * * * * * * * * * *-->
-        <!-- * * SB Forms Contact Form * *-->
-        <!-- * * * * * * * * * * * * * * *-->
-        <!-- This form is pre-integrated with SB Forms.-->
-        <!-- To make this form functional, sign up at-->
-        <!-- https://startbootstrap.com/solution/contact-forms-->
-        <!-- to get an API token!-->
+
         <form id="contactForm">
             <div class="row align-items-stretch mb-5">
                 <div class="col-md-6">
                     <div class="form-group">
                         <!-- Name input-->
                         <input class="form-control" id="name" type="text" placeholder="Seu Nome"
-                            data-sb-validations="required" />
+                            data-sb-validations="required" required />
                         <div class="invalid-feedback" data-sb-feedback="name:required">Digite seu nome</div>
                     </div>
                     <div class="form-group">
@@ -405,7 +457,7 @@
                     <div class="form-group form-group-textarea mb-md-0">
                         <!-- Message input-->
                         <textarea class="form-control" id="message" placeholder="Sua Mensagem..."
-                            data-sb-validations="required"></textarea>
+                            data-sb-validations="required" required></textarea>
                         <div class="invalid-feedback" data-sb-feedback="message:required">Digite uma mensagem!.
                         </div>
                     </div>
@@ -433,9 +485,9 @@
             </div>
             <!-- Submit Button-->
             <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase" id="submitButton"
-                    type="submit" >Enviar</button></div>
+                    type="submit">Enviar</button></div>
         </form>
-        
+
     </div>
 </section>
 <!-- Footer-->
@@ -473,10 +525,43 @@
                             <h2 class="text-uppercase">Mudanças Climáticas</h2>
                             <p class="item-intro text-muted">1° Motivo</p>
                             <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
-                            <p>A energia solar é renovável e não emite gases de efeito estufa durante o processo de
-                                produção de energia, o que a torna uma opção mais amigável ao meio ambiente do que a
-                                energia gerada a partir de combustíveis fósseis, como carvão e petróleo.</p>
+                            <p>Descubra a energia do futuro com a energia solar! Nossa solução sustentável e amiga do
+                                meio ambiente é a escolha inteligente para economizar dinheiro enquanto protege o
+                                planeta.
+                            </p>
+                            <p>
+                                Com a energia solar, você está investindo no seu bolso e no futuro do nosso planeta. Ao
+                                contrário dos combustíveis fósseis, a energia solar é 100% renovável e não emite gases
+                                de efeito estufa prejudiciais. Isso significa que você pode desfrutar de eletricidade
+                                limpa e econômica enquanto reduz sua pegada de carbono.
+                            </p>
+                            <p>
+                                Além disso, com incentivos financeiros e programas de financiamento acessíveis, a
+                                energia solar está mais ao seu alcance do que nunca. Não perca a oportunidade de
+                                economizar dinheiro em suas contas de energia e contribuir para um mundo mais limpo.
+                                Faça a mudança para a energia solar hoje e comece a colher os benefícios imediatos e a
+                                longo prazo. Entre em contato conosco para saber como você pode começar a economizar com
+                                a energia solar!
+                            </p>
+                            <ul class="timeline">
+                                <li class="timeline-inverted">
+                                    <a class="portfolio-link" data-bs-toggle="modal" href="#orcamentoModal">
+                                        <div class="timeline-image">
 
+                                            <h4>
+
+                                                Faça
+                                                <br />
+                                                um
+                                                <br />
+                                                Orçamento!
+
+                                            </h4>
+
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
                             <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                 <i class="fas fa-xmark me-1"></i>
                                 Fechar
@@ -500,11 +585,29 @@
                         <div class="modal-body">
                             <!-- Project details-->
                             <h2 class="text-uppercase">Redução da conta</h2>
-                            <p class="item-intro text-muted">4º Motivo</p>
+                            <p class="item-intro text-muted">5º Motivo</p>
                             <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/2.jpg" alt="..." />
-                            <p> Instalar painéis solares em sua casa ou negócio pode ajudar a reduzir sua conta de
-                                energia, pois você estará produzindo parte da sua própria energia.</p>
+                            <p>Optar por painéis solares, você não apenas reduzirá suas contas de energia, mas também
+                                desfrutará de economias consistentes a longo prazo. É uma escolha financeiramente
+                                inteligente que oferece inúmeros benefícios. Se você deseja começar a economizar
+                                significativamente em suas contas de energia, entre em contato conosco para saber como
+                                podemos ajudar a tornar isso uma realidade em sua casa ou empresa.</p>
 
+                            <ul class="timeline">
+                                <li class="timeline-inverted">
+                                    <a class="portfolio-link" data-bs-toggle="modal" href="#orcamentoModal">
+                                        <div class="timeline-image">
+                                            <h4>
+                                                Faça
+                                                <br />
+                                                um
+                                                <br />
+                                                Orçamento!
+                                            </h4>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
                             <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                 <i class="fas fa-xmark me-1"></i>
                                 Fechar
@@ -528,16 +631,35 @@
                         <div class="modal-body">
                             <!-- Project details-->
                             <h2 class="text-uppercase">Valor do imóvel</h2>
-                            <p class="item-intro text-muted">3° Motivo</p>
+                            <p class="item-intro text-muted">4° Motivo</p>
                             <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/3.jpg" alt="..." />
-                            <p>Uma placa solar pode aumentar o valor de um imóvel de várias maneiras. Primeiro, ela
-                                pode reduzir a conta de energia do imóvel, o que pode ser atraente para os
-                                compradores potenciais. Além disso, a instalação de uma placa solar pode ser vista
-                                como uma atualização valiosa do imóvel, o que pode aumentar o seu valor de mercado.
-                                Finalmente, em algumas áreas, o governo ou as empresas de energia podem oferecer
-                                incentivos financeiros para a instalação de painéis solares, o que pode aumentar o
-                                valor do imóvel.</p>
+                            <p>Ao escolher instalar painéis solares em sua propriedade, você está investindo não apenas
+                                em economia de energia, mas também na valorização a longo prazo de seu imóvel. A energia
+                                solar não apenas reduz os custos operacionais da casa ou empresa, mas também aumenta seu
+                                valor de
+                                mercado, tornando-a uma opção mais atraente para compradores em potencial. Se você
+                                deseja maximizar o valor de sua propriedade e colher os benefícios financeiros da
+                                energia solar, não hesite em entrar em contato conosco para saber como podemos ajudar a
+                                valorizar seu imóvel.</p>
+                            <ul class="timeline">
+                                <li class="timeline-inverted">
+                                    <a class="portfolio-link" data-bs-toggle="modal" href="#orcamentoModal">
+                                        <div class="timeline-image">
 
+                                            <h4>
+
+                                                Faça
+                                                <br />
+                                                um
+                                                <br />
+                                                Orçamento!
+
+                                            </h4>
+
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
                             <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                 <i class="fas fa-xmark me-1"></i>
                                 Fechar
@@ -569,18 +691,37 @@
                                 torna uma opção muito atraente em comparação com fontes de energia fóssil como o
                                 carvão e o petróleo. Além disso, os painéis solares são geralmente construídos com
                                 materiais de baixo impacto ambiental, como vidro, silicone e alumínio, que são
-                                facilmente recicláveis.<br><br>
-
+                                facilmente recicláveis.</p>
+                            <p>
                                 A energia solar também tem um baixo impacto visual, já que os painéis solares são
                                 geralmente instalados em telhados ou áreas não visíveis, e não requerem grandes
                                 áreas de terra como algumas outras fontes de energia renovável, como parques
                                 eólicos.
+                            </p>
 
-                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
-                                    type="button">
-                                    <i class="fas fa-xmark me-1"></i>
-                                    Fechar
-                                </button>
+                            <ul class="timeline">
+                                <li class="timeline-inverted">
+                                    <a class="portfolio-link" data-bs-toggle="modal" href="#orcamentoModal">
+                                        <div class="timeline-image">
+
+                                            <h4>
+
+                                                Faça
+                                                <br />
+                                                um
+                                                <br />
+                                                Orçamento!
+
+                                            </h4>
+
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                            <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                <i class="fas fa-xmark me-1"></i>
+                                Fechar
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -600,7 +741,7 @@
                         <div class="modal-body">
                             <!-- Project details-->
                             <h2 class="text-uppercase">Energia limpa</h2>
-                            <p class="item-intro text-muted">5° Motivo</p>
+                            <p class="item-intro text-muted">3° Motivo</p>
                             <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/5.jpg" alt="..." />
                             <p>As fontes de energia limpa são aquelas que geram energia elétrica sem emitir gases
                                 poluentes ou outras substâncias prejudiciais ao meio ambiente. O painel solar é uma
@@ -621,6 +762,22 @@
                             <p>Em resumo, os painéis solares são uma fonte de energia limpa e renovável que pode ser
                                 usada para gerar energia elétrica de maneira eficiente e sem prejudicar o meio
                                 ambiente.</p>
+
+                            <ul class="timeline">
+                                <li class="timeline-inverted">
+                                    <a class="portfolio-link" data-bs-toggle="modal" href="#orcamentoModal">
+                                        <div class="timeline-image">
+                                            <h4>
+                                                Faça
+                                                <br />
+                                                um
+                                                <br />
+                                                Orçamento!
+                                            </h4>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
                             <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                 <i class="fas fa-xmark me-1"></i>
                                 Fechar
@@ -632,7 +789,7 @@
         </div>
     </div>
 </div>
-<!-- Portfolio item 6 modal popup-->
+<!-- Order modal popup-->
 <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -684,9 +841,9 @@
                                 <h2 class="text-uppercase modaTitle">Orçamento</h2>
                                 <p class="item-intro text-muted">Dados básicos</p>
 
-                                <input class="inputModal" type="text" id="nameOrcamento" placeholder="Nome" >
+                                <input class="inputModal" type="text" id="nameOrcamento" placeholder="Nome">
                                 <input class="inputModal" type="email" id="emailOrcamento" placeholder="Email">
-                                <input class="inputModal" type="tel" id="phoneOrcamento" placeholder="Celular/Telefone" >
+                                <input class="inputModal" type="tel" id="phoneOrcamento" placeholder="Celular/Telefone">
                                 <select class="statesOptions" name="state" id="state">
                                     <option value="estado" selected>Estado</option>
                                 </select>
@@ -868,8 +1025,9 @@
 
                                 </div>
                                 <br>
-                                <button class="btn btn-primary btn-xl text-uppercase" id="submit-button" type="submit" data-button >
-                                    Enviar
+                                <button class="g-recaptcha btn btn-primary btn-xl text-uppercase" id="submit-button"
+                                    data-sitekey="6LfraU4oAAAAAAJui95Bx-szY4UbnoccBGdfEXej" data-callback='onSubmit'
+                                    data-action='submit' data-button type="submit">Enviar
                                 </button>
                             </form>
                         </div>
@@ -879,23 +1037,46 @@
         </div>
     </div>
 </div>
+
+
+<!-- START Widget WhastApp hospedagemwordpresspro -->
+<a href="https://api.whatsapp.com/send?phone=5516992881275&text= Oi, tenho gostaria de saber mais sobre energia solar."
+    class="bt-whatsApp" target="_blank"
+    style="right:15px; position:fixed;width:60px;height:100px;bottom:40px;z-index:100;">
+    <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pjxzdmcgdmlld0JveD0iMjYxOSA1MDYgMTIwIDEyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZGVmcz48c3R5bGU+CiAgICAgIC5jbHMtMSB7CiAgICAgICAgZmlsbDogIzI3ZDA0NTsKICAgICAgfQoKICAgICAgLmNscy0yLCAuY2xzLTUgewogICAgICAgIGZpbGw6IG5vbmU7CiAgICAgIH0KCiAgICAgIC5jbHMtMiB7CiAgICAgICAgc3Ryb2tlOiAjZmZmOwogICAgICAgIHN0cm9rZS13aWR0aDogNXB4OwogICAgICB9CgogICAgICAuY2xzLTMgewogICAgICAgIGZpbGw6ICNmZmY7CiAgICAgIH0KCiAgICAgIC5jbHMtNCB7CiAgICAgICAgc3Ryb2tlOiBub25lOwogICAgICB9CiAgICA8L3N0eWxlPjwvZGVmcz48ZyBkYXRhLW5hbWU9Ikdyb3VwIDM2IiBpZD0iR3JvdXBfMzYiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIzMDAgNzMpIj48Y2lyY2xlIGNsYXNzPSJjbHMtMSIgY3g9IjYwIiBjeT0iNjAiIGRhdGEtbmFtZT0iRWxsaXBzZSAxOCIgaWQ9IkVsbGlwc2VfMTgiIHI9IjYwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzMTkgNDMzKSIvPjxnIGRhdGEtbmFtZT0iR3JvdXAgMzUiIGlkPSJHcm91cF8zNSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjU0IDM4NikiPjxnIGRhdGEtbmFtZT0iR3JvdXAgMzQiIGlkPSJHcm91cF8zNCI+PGcgY2xhc3M9ImNscy0yIiBkYXRhLW5hbWU9IkVsbGlwc2UgMTkiIGlkPSJFbGxpcHNlXzE5IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg5NCA3NSkiPjxjaXJjbGUgY2xhc3M9ImNscy00IiBjeD0iMzEuNSIgY3k9IjMxLjUiIHI9IjMxLjUiLz48Y2lyY2xlIGNsYXNzPSJjbHMtNSIgY3g9IjMxLjUiIGN5PSIzMS41IiByPSIyOSIvPjwvZz48cGF0aCBjbGFzcz0iY2xzLTMiIGQ9Ik0xNDI0LDE5MWwtNC42LDE2LjMsMTYuOS00LjcuOS01LjItMTEsMy41LDIuOS0xMC41WiIgZGF0YS1uYW1lPSJQYXRoIDEyNiIgaWQ9IlBhdGhfMTI2IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTMyNSAtNjgpIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMTI2Niw5MGMwLS4xLDMuNS0xMS43LDMuNS0xMS43bDguNCw3LjlaIiBkYXRhLW5hbWU9IlBhdGggMTI3IiBpZD0iUGF0aF8xMjciIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xMTY1IDQzKSIvPjwvZz48cGF0aCBjbGFzcz0iY2xzLTMiIGQ9Ik0xNDM5LjMsMTYwLjZhOS40LDkuNCwwLDAsMC0zLjksNi4xYy0uNSwzLjksMS45LDcuOSwxLjksNy45YTUwLjg3Niw1MC44NzYsMCwwLDAsOC42LDkuOCwzMC4xODEsMzAuMTgxLDAsMCwwLDkuNiw1LjEsMTEuMzc4LDExLjM3OCwwLDAsMCw2LjQuNiw5LjE2Nyw5LjE2NywwLDAsMCw0LjgtMy4yLDkuODUxLDkuODUxLDAsMCwwLC42LTIuMiw1Ljg2OCw1Ljg2OCwwLDAsMCwwLTJjLS4xLS43LTcuMy00LTgtMy44cy0xLjMsMS41LTIuMSwyLjYtMS4xLDEuNi0xLjksMS42LTQuMy0xLjQtNy42LTQuNGExNS44NzUsMTUuODc1LDAsMCwxLTQuMy02cy42LS43LDEuNC0xLjhhNS42NjQsNS42NjQsMCwwLDAsMS4zLTIuNGMwLS41LTIuOC03LjYtMy41LTcuOUExMS44NTIsMTEuODUyLDAsMCwwLDE0MzkuMywxNjAuNloiIGRhdGEtbmFtZT0iUGF0aCAxMjgiIGlkPSJQYXRoXzEyOCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEzMjYuMzMyIC02OC40NjcpIi8+PC9nPjwvZz48L3N2Zz4="
+        alt="" width="60px">
+</a>
+<span id="alertWapp"
+    style="right:15px; visibility: hidden; position:fixed;	width:17px;	height:17px;bottom:120px; background:red;z-index:101; font-size:11px;color:#fff;text-align:center;border-radius: 50px; font-weight:bold;line-height: normal; ">
+    1 </span>
+<div id="msg1"
+    style="right: 80px; visibility: hidden; background: #fff;color: #000;position: fixed;width: 100px;bottom: 75px;font-size: 12px;line-height: 13px;padding: 3px; border-radius: 10px; border:1px solid #e2e2e2; box-shadow: 2px 2px 3px #999;z-index:100; ">
+    Fale com um especialista!
+</div>
+<script
+    type="text/javascript">function showIt2() { document.getElementById("msg1").style.visibility = "visible"; } setTimeout("showIt2()", 5000); function hiddenIt() { document.getElementById("msg1").style.visibility = "hidden"; } setTimeout("hiddenIt()", 15000); function showIt3() { document.getElementById("msg1").style.visibility = "visible"; } setTimeout("showIt3()", 25000); msg1.onclick = function () { document.getElementById('msg1').style.visibility = "hidden"; }; function alertW() { document.getElementById("alertWapp").style.visibility = "visible"; } setTimeout("alertW()", 15000); </script>
+<!-- END Widget WhastApp -->
+
+
+
+
 <!-- Bootstrap core JS-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 <!-- Core theme JS-->
 <script type="module" src="js/scripts.js"></script>
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
-    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-    (function(){
-    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-    s1.async=true;
-    s1.src='https://embed.tawk.to/6489e42ecc26a871b022895e/1h2ta6lv4';
-    s1.charset='UTF-8';
-    s1.setAttribute('crossorigin','*');
-    s0.parentNode.insertBefore(s1,s0);
+    var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+    (function () {
+        var s1 = document.createElement("scrip"), s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = 'https://embed.tawk.to/6489e42ecc26a871b022895e/1h2ta6lv4';
+        s1.charset = 'UTF-8';
+        s1.setAttribute('crossorigin', '*');
+        s0.parentNode.insertBefore(s1, s0);
     })();
-    </script>
-    <!--End of Tawk.to Script-->
+</script>
+<!--End of Tawk.to Script-->
 
 </body>
 

@@ -11401,7 +11401,7 @@ p {
   font-size: 35px;
 }
 .logo img {
-  width: 50px;
+  width: 180px;
   margin-top: -5px;
 }
 .logo a:hover {
@@ -11875,11 +11875,11 @@ section#contact form#contactForm :-ms-input-placeholder {
   background-image: url('../assets/img/logo.png');    
   background-position: center top; 
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 8%;
+  background-attachment: local;
+  background-size: 20%;
   background-color: #464646;
   background-position-x: 50%;
-  background-position-y: 40px;
+  background-position-y: 15px;
   width: auto;
   
 }
