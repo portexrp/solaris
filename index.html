@@ -823,9 +823,9 @@
                                 <h2 class="text-uppercase modaTitle">Orçamento</h2>
                                 <p class="item-intro text-muted">Dados básicos</p>
 
-                                <input class="inputModal" type="text" id="nameOrcamento" placeholder="Nome">
+                                <input class="inputModal" type="text" id="nameOrcamento" placeholder="Nome" required>
                                 <input class="inputModal" type="email" id="emailOrcamento" placeholder="Email">
-                                <input class="inputModal" type="tel" id="phoneOrcamento" placeholder="Celular/Telefone">
+                                <input class="inputModal" type="tel" id="phoneOrcamento" placeholder="Celular/Telefone" required>
                                 <select class="statesOptions" name="state" id="state">
                                     <option value="estado" selected>Estado</option>
                                 </select>
@@ -1001,11 +1001,6 @@
                                 </select>
                                 <br>
 
-                                <div style="text-align: center; display: inline-block;">
-                                    <div class="g-recaptcha" data-sitekey="your-site-key" data-callback="callback">
-                                    </div>
-
-                                </div>
                                 <br>
                                 <button class="g-recaptcha btn btn-primary btn-xl text-uppercase" id="submit-button"
                                     data-sitekey="6LfraU4oAAAAAAJui95Bx-szY4UbnoccBGdfEXej" data-callback='onSubmit'
